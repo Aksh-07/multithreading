@@ -109,7 +109,6 @@ with lock_:
 for i in all_tasks:
     i.join()
 
-
 connection.close()
 
 end_time = time.time()
